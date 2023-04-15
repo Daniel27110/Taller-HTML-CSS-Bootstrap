@@ -1,0 +1,37 @@
+/* Define el fondo de pantalla */
+
+html {
+    background: url(https://raw.githubusercontent.com/linuxdotexe/nordic-wallpapers/master/wallpapers/ign_mountains.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+
+/* Define el color de fondo de la página,
+   debe ser transparente para poder ver el
+   fondo y evitar margenes feos */
+
+
+html body {
+    background-color: rgba(0, 0, 0, 0);
+
+}
+
+/* Define el aspecto de un titulo*/
+
+.title {
+    color: #eceff4;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+}
+
+/* Define el aspecto de una caja redonde de texto*/
+
+.round-box {
+    background-color: #2e3440d5;
+    padding: 10px 30px 10px
+}
